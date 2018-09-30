@@ -1,0 +1,11 @@
+framework module LXWebKit {
+  umbrella header "LXWebKit.h"
+
+  export *
+  module * { export * }
+}
+
+module LXWebKit.Swift {
+    header "LXWebKit-Swift.h"
+    requires objc
+}
