@@ -23,4 +23,5 @@ Pod::Spec.new do |spec|
     spec.vendored_frameworks = 'LXWebKit/LXWebKit.framework'
     spec.frameworks   = 'UIKit','Foundation','WebKit'
     spec.dependency 'SnapKit'
+    spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 end
