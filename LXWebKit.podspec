@@ -13,10 +13,10 @@ Pod::Spec.new do |spec|
     spec.license      = { :type => "MIT", :file => "LICENSE" }
     spec.summary      = "A short description of LXWebKit."
     spec.description  = <<-DESC
-                    描述
+                    fdasljllfokj
             DESC
     spec.homepage     = "https://github.com/Cryziss/LXWebKit"
-    spec.authors            = { "白金" => "954236701@qq.com" }
+    spec.authors            = { "baijin" => "954236701@qq.com" }
     spec.source       = { :git => "https://github.com/Cryziss/LXWebKit.git", :tag =>    spec.version }
 
     spec.platform     = :ios, "9.0"
